@@ -3,6 +3,7 @@
  Created:	6/3/2020 4:08:49 PM
  Author:	alex
 */
+#include <Adafruit_BME280.h>
 #include <Arduino.h>
 #include <Wire.h> 
 #include <LiquidCrystal_I2C.h>
