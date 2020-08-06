@@ -3,6 +3,13 @@
  Created:	6/25/2020 7:19:40 PM
  Author:	alex
 */
+#include <splash.h>
+#include <Adafruit_SSD1306.h>
+#include <Adafruit_SPITFT_Macros.h>
+#include <gfxfont.h>
+#include <Adafruit_SPITFT.h>
+#include <Adafruit_MonoOLED.h>
+#include <Adafruit_GFX.h>
 #include <Arduino.h>
 #include <Wire.h> 
 #include <LiquidCrystal_I2C.h>

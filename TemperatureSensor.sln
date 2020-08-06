@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TemperatureSensor", "Temper
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8266", "8266\8266.vcxproj", "{6D03B534-9CD8-47DA-A70D-9FCB1C5086E5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bme280", "bme280\bme280.vcxproj", "{4DA68AA2-A0ED-4824-8F64-9C14C4A09404}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8226Device", "8226Device\8226Device.vcxproj", "{3921E2E0-D8ED-417C-9BD2-940122411F6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -21,6 +25,14 @@ Global
 		{6D03B534-9CD8-47DA-A70D-9FCB1C5086E5}.Debug|x86.Build.0 = Debug|Win32
 		{6D03B534-9CD8-47DA-A70D-9FCB1C5086E5}.Release|x86.ActiveCfg = Release|Win32
 		{6D03B534-9CD8-47DA-A70D-9FCB1C5086E5}.Release|x86.Build.0 = Release|Win32
+		{4DA68AA2-A0ED-4824-8F64-9C14C4A09404}.Debug|x86.ActiveCfg = Debug|Win32
+		{4DA68AA2-A0ED-4824-8F64-9C14C4A09404}.Debug|x86.Build.0 = Debug|Win32
+		{4DA68AA2-A0ED-4824-8F64-9C14C4A09404}.Release|x86.ActiveCfg = Release|Win32
+		{4DA68AA2-A0ED-4824-8F64-9C14C4A09404}.Release|x86.Build.0 = Release|Win32
+		{3921E2E0-D8ED-417C-9BD2-940122411F6D}.Debug|x86.ActiveCfg = Debug|Win32
+		{3921E2E0-D8ED-417C-9BD2-940122411F6D}.Debug|x86.Build.0 = Debug|Win32
+		{3921E2E0-D8ED-417C-9BD2-940122411F6D}.Release|x86.ActiveCfg = Release|Win32
+		{3921E2E0-D8ED-417C-9BD2-940122411F6D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

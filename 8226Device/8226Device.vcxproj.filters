@@ -15,13 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="bme280.ino" />
+    <None Include="8226Device.ino" />
     <None Include="src\arduino folders read me.txt">
       <Filter>Misc Files</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="__vm\.bme280.vsarduino.h">
+    <ClInclude Include="__vm\.8226Device.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,8 +1,30 @@
+#include <SoftwareSerial.h>
+#include <VM_mem_check.h>
+#include <VM_DBG.h>
+#include <splash.h>
+#include <Adafruit_SSD1306.h>
+#include <RobotIRremoteTools.h>
+#include <RobotIRremoteInt.h>
+#include <RobotIRremote.h>
+#include <VM_Boards.h>
 /*
  Name:		TemperatureSensor.ino
  Created:	6/3/2020 4:08:49 PM
  Author:	alex
 */
+#include <ssd1306_uart.h>
+#include <ssd1306_generic.h>
+#include <ssd1306_fonts.h>
+#include <ssd1306_console.h>
+#include <ssd1306_8bit.h>
+#include <ssd1306_1bit.h>
+#include <ssd1306_16bit.h>
+#include <ssd1306.h>
+#include <sprite_pool.h>
+#include <nano_gfx.h>
+#include <nano_gfx_types.h>
+#include <nano_engine.h>
+#include <font6x8.h>
 #include <Adafruit_BME280.h>
 #include <Arduino.h>
 #include <Wire.h> 
