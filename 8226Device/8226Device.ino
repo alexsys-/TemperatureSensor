@@ -73,8 +73,8 @@ void read();
 
 SSD1306  display(0x3c, 5, 4);//d1 d2
 
-String readhost = "http://207.181.220.212/api/msg/request";
-String writehost = "http://207.181.220.212/api/msg";
+String readhost = "http://207.181.220.212:1990/api/msg/request";
+String writehost = "http://207.181.220.212:1990/api/msg";
 
 //String ssid = "alexsys";
 //String password = "puikutsa";
